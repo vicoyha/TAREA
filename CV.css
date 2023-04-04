@@ -1,8 +1,10 @@
+
 h1 {
     color: black;
     font-size: 40px;
     font-weight: 50px;
-    background-color: #BB8FCE;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,110,232,1) 43%, rgba(68,90,175,1) 61%, rgba(0,212,255,1) 100%);
     text-align: center;
 }
 
@@ -10,6 +12,9 @@ h1 {
     text-align: center;
     background-color: #BB8FCE;
     line-height: 100px;
+    box-shadow: -22px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -22px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -22px 10px 5px 0px rgba(0,0,0,0.75);
 
 }
 
@@ -37,5 +42,19 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: -22px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -22px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -22px 10px 5px 0px rgba(0,0,0,0.75);
+border: 5px solid #030101;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(224,110,232,1) 43%, rgba(68,90,175,1) 61%, rgba(0,212,255,1) 100%);
 }
-
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Patrick Hand', cursive;
+}
+p{
+    font-family: 'Amatic SC', cursive;
+}
