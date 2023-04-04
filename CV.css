@@ -1,0 +1,41 @@
+h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: 50px;
+    background-color: #BB8FCE;
+    text-align: center;
+}
+
+#caja {
+    text-align: center;
+    background-color: #BB8FCE;
+    line-height: 100px;
+
+}
+
+body {
+    background-color: grey;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+#contenido{
+    text-align: center;
+    align-items: center;
+    background-color: #78D86B;
+}
+#form{
+    text-align: center;
+    background-color: blue;
+    font-weight: 50px;
+    width: 500px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
